@@ -33,6 +33,14 @@ modules:
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
           - org.gnome.Loupe
+          - com.brave.Browser
+          - com.spotify.Client
+          - com.mattjakeman.ExtensionManager
+          - com.github.tchx84.Flatseal
+          - com.github.wwmm.easyeffects
+          - com.valvesoftware.Steam
+          - io.gitlab.librewolf-community
+          - io.missioncenter.MissionCenter        
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
